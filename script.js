@@ -1,32 +1,3 @@
-//  // function  
-// // function calculatePer(a , b = 4){
-// //     let p = (a + b) * 2 
-
-// //     console.log(p) 
-// // }
-// // calculatePer(2,2)
-// // calculatePer(6,3)
-
-// // ===================================
-// // const arr = [1,2,3,4,5,6,7];
-
-// // for of 
-// // for (let item of arr) {
-// //     console.log(item);
-// // }
-
-// const obj = {
-//     name: 'asad'
-// }
-
-// // for in 
-// for (let item in obj) {
-//     console.log(item);
-//     console.log(obj[item]);
-    
-// }
-
-
 let rightAnswers = {
     1: "a",
     2: "b,c,d",
@@ -114,8 +85,8 @@ function test(right, data) {
     }
 
 
-    return { rigth: 0, wrong: 0 }
+    return { rigth: 13, wrong: 19 }
 }
 
-let result = test(rightAnswers, data);
-console.log(result);
+let otvet = test(rightAnswers, data);
+console.log(otvet);
